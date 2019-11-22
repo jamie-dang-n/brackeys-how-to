@@ -2021,7 +2021,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -2368,8 +2368,9 @@ GameObject:
   - component: {fileID: 1943288232}
   - component: {fileID: 1943288234}
   - component: {fileID: 1943288233}
+  - component: {fileID: 1943288235}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2434,6 +2435,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943288231}
   m_CullTransparentMesh: 0
+--- !u!114 &1943288235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943288231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85cc9568ddfef0d4baa29d9bc4147a28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1570397932}
+  scoreText: {fileID: 1943288233}
 --- !u!4 &1959793124 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6454781935895334247, guid: ff8d7edba11b0b9419c3b683eb96ae86,
