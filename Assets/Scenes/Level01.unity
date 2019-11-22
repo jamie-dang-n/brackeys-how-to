@@ -2075,8 +2075,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1570397933}
-  forwardForce: 1500
-  sidewaysForce: 60
+  forwardForce: 4000
+  sidewaysForce: 100
 --- !u!114 &1570397935
 MonoBehaviour:
   m_ObjectHideFlags: 0
